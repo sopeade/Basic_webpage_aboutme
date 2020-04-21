@@ -1,0 +1,35 @@
+/*Project 0 scss requirements
+/*-------------------------------------------------------------*/
+$white: white;  /*see ln 17 & 30 */
+$sblk: 2px solid black;
+table {
+        border:$sblk; border-collapse: collapse;
+        th {border: $sblk; font-weight:bold;
+        }
+        td {
+        border: $sblk; color: blue;
+        }
+      }
+
+%scaleheading {text-align: left;}
+#Tabheading {@extend %scaleheading; text-decoration: underline; font-family: sans-serif;}
+
+/*@media requirements
+/*------------------------------------------------------------ */
+@media (min-width: 751px){.maintext {font-size:20px; background-color: $white;}}
+@media (max-width: 750px){.maintext {font-size:15px; background-color:grey;}}
+
+
+
+
+header {font-size: 50px; color: blue; text-align:center; padding: 10px;}
+nav {background-color: #77bfbe; font-size:30px; color:magenta; text-align:center; width: 100%; word-spacing: 60px}
+nav :hover{color: Red;}
+button[type= submit] {margin-left:20px}
+commentbox .form-group {line-height:15%;}
+#img {max-width: 100%; height: auto;}
+.maintext {font-size: 20px; color:black; background-color: $white; width: auto; justify-content: flex-end;}
+.tabs {text-align: center;}
+.row > div {border:15px solid black; padding: 10px; color: black; font-weight: bold;}
+.form-group {border-right-style: solid; padding-right: 600px; padding-left:20px;}
+.form-control {width:100%;}

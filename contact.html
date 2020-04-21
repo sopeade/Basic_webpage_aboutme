@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Sopelanlehinsounds</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="Mystyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <header>Sope Lanlehin</header>
+        <!--Heading with Top pages and Links  -->
+        <nav>
+            <h6>
+                <a href="Index.html">About</a>
+                <a href="videos.html">Videos</a>
+                <a href="lessons.html">Lessons</a>
+                <a href="contact.html">Contact</a>
+            </h6>
+        </nav>
+
+        <!--Text Section  with Name & Email Input Boxes. Form Component block template obtained from getbootstrap website-->
+        <div>
+             <form>
+                  <div class="form-group">
+                    <label for="Firstname">First Name</label>
+                    <input type="text" class="form-control" id="Firstname" placeholder="Enter First Name">
+                  </div>
+
+                 <div class="form-group">
+                    <label for="Lastname">Last Name</label>
+                    <input type="text" class="form-control" id="Lastname" placeholder="Enter Last Name">
+                  </div>
+
+                 <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    <small id="email" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                 <div id="commentbox">
+                  <div class="form-group">
+                    <label for="comments">Comments</label>
+                    <input type="text" class="form-control" id="comments" placeholder="Enter Comments">
+                  </div>
+                 </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>COVID19 Reminder- Remember to stay safe. Cheers!</strong>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
