@@ -20,7 +20,7 @@ Main contents/Files:
 
 Requirements Fulfilled
 -List created(unordered)
- Target Page: Lessons.html
+ Target Page: Lessons.html 
 
 -Multiple CSS Selectors utilized: #id, .class, p, ::selection, ::hover  
  Target pages- See "About.html" page
